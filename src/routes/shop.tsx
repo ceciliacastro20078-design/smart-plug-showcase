@@ -26,9 +26,9 @@ function Shop() {
       <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
         {products.map((p) => (
           <Link key={p.slug} to="/product/$slug" params={{ slug: p.slug }} className="group">
-            <div className="overflow-hidden rounded-xl bg-secondary/40">
-              <img src={p.image} alt={p.name} loading="lazy" width={1280} height={1280} className="aspect-square w-full object-cover transition-transform duration-500 group-hover:scale-105" />
-            </div>
+            <div className="overflow-hidden rounded-xl bg-[#f7f7f7]">
+                <img src={p.image} alt={p.name} loading="lazy" width={1280} height={1280} className="aspect-square w-full object-contain transition-transform duration-500 group-hover:scale-105" />
+              </div>
             <div className="mt-4 flex items-baseline justify-between">
               <h2 className="text-base font-medium">{p.name}</h2>
               <span className="text-sm">{formatPrice(p.price)}</span>

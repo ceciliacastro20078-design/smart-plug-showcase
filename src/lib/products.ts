@@ -1,4 +1,9 @@
-import productImg from "@/assets/ecoswitch-product.jpg";
+import productImgMini from "@/assets/slug_mini.jpeg";
+import productImgOffice from "@/assets/slug_office.jpeg";
+import productImgP3 from "@/assets/slug_p3.jpeg";
+import productImgPro from "@/assets/slug_pro.jpeg";
+import productImgSolo from "@/assets/slug_solo.jpeg";
+
 
 export type Product = {
   slug: string;
@@ -24,7 +29,7 @@ export const products: Product[] = [
       "Formato compacto, ocupa apenas uma tomada",
       "Sem necessidade de aplicação ou internet",
     ],
-    image: productImg,
+    image: productImgMini,
   },
   {
     slug: "solo",
@@ -39,7 +44,7 @@ export const products: Product[] = [
       "Compatível com qualquer aparelho doméstico",
       "Instalação plug & play",
     ],
-    image: productImg,
+    image: productImgSolo,
   },
   {
     slug: "pack-3",
@@ -54,7 +59,7 @@ export const products: Product[] = [
       "Embalagem 100% reciclável",
       "Garantia de 2 anos",
     ],
-    image: productImg,
+    image: productImgP3,
   },
   {
     slug: "office-strip",
@@ -69,7 +74,7 @@ export const products: Product[] = [
       "Cabo de 1,5 m com fio têxtil",
       "Design minimalista para secretária",
     ],
-    image: productImg,
+    image: productImgOffice,
   },
   {
     slug: "pro",
@@ -84,7 +89,7 @@ export const products: Product[] = [
       "Modo programado por horários",
       "Acabamento premium em alumínio escovado",
     ],
-    image: productImg,
+    image: productImgPro,
   },
 ];
 

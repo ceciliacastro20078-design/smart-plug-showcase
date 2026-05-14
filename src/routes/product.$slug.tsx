@@ -51,8 +51,8 @@ function ProductPage() {
       </Link>
 
       <div className="mt-8 grid gap-12 md:grid-cols-2">
-        <div className="overflow-hidden rounded-2xl bg-secondary/40">
-          <img src={product.image} alt={product.name} width={1280} height={1280} className="aspect-square w-full object-cover" />
+        <div className="overflow-hidden rounded-2xl bg-[#f7f7f7]">
+          <img src={product.image} alt={product.name} width={1280} height={1280} className="aspect-square w-full object-contain" />
         </div>
 
         <div>
@@ -98,8 +98,8 @@ function ProductPage() {
         <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {others.map((p) => (
             <Link key={p.slug} to="/product/$slug" params={{ slug: p.slug }} className="group">
-              <div className="overflow-hidden rounded-xl bg-secondary/40">
-                <img src={p.image} alt={p.name} loading="lazy" width={1280} height={1280} className="aspect-square w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+              <div className="overflow-hidden rounded-xl bg-[#f7f7f7]">
+                <img src={p.image} alt={p.name} loading="lazy" width={1280} height={1280} className="aspect-square w-full object-contain transition-transform duration-500 group-hover:scale-105" />
               </div>
               <div className="mt-3 flex items-baseline justify-between">
                 <span className="text-sm font-medium">{p.name}</span>

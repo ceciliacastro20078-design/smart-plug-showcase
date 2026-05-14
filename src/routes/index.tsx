@@ -1,5 +1,4 @@
 import heroImg from "@/assets/ecoswitch-hero.jpg";
-import productImg from "@/assets/ecoswitch-product.jpg";
 import { formatPrice } from "@/lib/cart";
 import { products } from "@/lib/products";
 import { createFileRoute, Link } from "@tanstack/react-router";
@@ -41,7 +40,7 @@ function Index() {
             </div>
           </div>
           <div className="relative">
-            <img src={heroImg} alt="Sala minimalista com EcoSwitch instalado" width={1600} height={1100} className="aspect-[4/3] w-full rounded-2xl object-cover" />
+            <img src={heroImg} alt="Sala minimalista com EcoSwitch instalado" width={1600} height={1100} className="aspect-[4/3] w-full rounded-2xl object-contain" />
           </div>
         </div>
       </section>
@@ -75,8 +74,8 @@ function Index() {
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {products.slice(0, 3).map((p) => (
             <Link key={p.slug} to="/product/$slug" params={{ slug: p.slug }} className="group">
-              <div className="overflow-hidden rounded-xl bg-secondary/40">
-                <img src={productImg} alt={p.name} loading="lazy" width={1280} height={1280} className="aspect-square w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+              <div className="overflow-hidden rounded-xl bg-[#f7f7f7]">
+                <img src={p.image} alt={p.name} loading="lazy" width={1280} height={1280} className="aspect-square w-full object-contain transition-transform duration-500 group-hover:scale-105" />
               </div>
               <div className="mt-4 flex items-baseline justify-between">
                 <h3 className="text-base font-medium">{p.name}</h3>
