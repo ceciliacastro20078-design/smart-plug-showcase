@@ -36,7 +36,7 @@ function About() {
           <p className="mt-1 text-sm text-muted-foreground">Consumo residual após corte</p>
         </div>
         <div>
-          <p className="text-3xl font-semibold">2 anos</p>
+          <p className="text-3xl font-semibold">3 anos</p>
           <p className="mt-1 text-sm text-muted-foreground">Garantia em todos os modelos</p>
         </div>
       </div>
