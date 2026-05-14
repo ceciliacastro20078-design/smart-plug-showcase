@@ -39,7 +39,7 @@ export function SiteFooter() {
       <div className="border-t border-border/60">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5 text-xs text-muted-foreground">
           <span>© {new Date().getFullYear()} EcoSwitch. Todos os direitos reservados.</span>
-          <span>Lisboa, Portugal</span>
+          <span>Guimarães, Portugal</span>
         </div>
       </div>
     </footer>

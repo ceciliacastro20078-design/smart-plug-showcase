@@ -1,8 +1,8 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
 import heroImg from "@/assets/ecoswitch-hero.jpg";
 import productImg from "@/assets/ecoswitch-product.jpg";
-import { products } from "@/lib/products";
 import { formatPrice } from "@/lib/cart";
+import { products } from "@/lib/products";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, Leaf, Plug, Zap } from "lucide-react";
 
 export const Route = createFileRoute("/")({

@@ -30,7 +30,7 @@ function Shipping() {
         </section>
         <section>
           <h2 className="text-base font-medium text-foreground">Garantia</h2>
-          <p className="mt-2">Todos os modelos EcoSwitch têm garantia de 2 anos contra defeitos de fabrico.</p>
+          <p className="mt-2">Todos os modelos EcoSwitch têm garantia de 3 anos contra defeitos de fabrico.</p>
         </section>
       </div>
     </div>

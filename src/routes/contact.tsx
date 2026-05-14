@@ -20,7 +20,7 @@ function Contact() {
         <div className="space-y-6 text-sm">
           <div>
             <h2 className="text-xs uppercase tracking-wider text-muted-foreground">Apoio ao cliente</h2>
-            <p className="mt-1">apoio@ecoswitch.pt</p>
+            <p className="mt-1">ecoo.swiitch@gmail.com</p>
           </div>
           <div>
             <h2 className="text-xs uppercase tracking-wider text-muted-foreground">Telefone</h2>
@@ -29,11 +29,11 @@ function Contact() {
           </div>
           <div>
             <h2 className="text-xs uppercase tracking-wider text-muted-foreground">Morada</h2>
-            <p className="mt-1">Rua da Energia 12, 1000-001 Lisboa</p>
+            <p className="mt-1">Avenida D.João IV 17, 4810-531, Guimarães</p>
           </div>
           <div>
             <h2 className="text-xs uppercase tracking-wider text-muted-foreground">Redes sociais</h2>
-            <p className="mt-1">Instagram · YouTube · LinkedIn</p>
+            <p className="mt-1">Instagram</p>
           </div>
         </div>
 
@@ -61,7 +61,7 @@ function Contact() {
         <div className="mt-6 divide-y divide-border border-y border-border">
           {[
             { q: "A EcoSwitch precisa de Wi-Fi?", a: "Não. O sistema é totalmente autónomo e funciona sem aplicações ou ligação à internet." },
-            { q: "Funciona com qualquer aparelho?", a: "Sim, é compatível com televisores, carregadores, cafeteiras, consolas e sistemas de som." },
+            { q: "Funciona com qualquer aparelho?", a: "Sim, é compatível com televisões, carregadores, cafeteiras, consolas e sistemas de som." },
             { q: "Quanto tempo demora a recuperar o investimento?", a: "Em média, o valor é recuperado em poucos meses através da poupança direta na fatura." },
           ].map((f) => (
             <details key={f.q} className="group py-4">

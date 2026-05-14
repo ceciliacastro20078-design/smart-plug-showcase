@@ -1,17 +1,17 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import {
-  Outlet,
+  HeadContent,
   Link,
+  Outlet,
+  Scripts,
   createRootRouteWithContext,
   useRouter,
-  HeadContent,
-  Scripts,
 } from "@tanstack/react-router";
 
-import appCss from "../styles.css?url";
-import { CartProvider } from "@/lib/cart";
-import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+import { SiteHeader } from "@/components/SiteHeader";
+import { CartProvider } from "@/lib/cart";
+import appCss from "../styles.css?url";
 
 function NotFoundComponent() {
   return (

@@ -1,5 +1,5 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
 import { formatPrice, useCart } from "@/lib/cart";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { Trash2 } from "lucide-react";
 
 export const Route = createFileRoute("/cart")({

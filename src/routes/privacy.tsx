@@ -26,7 +26,7 @@ function Privacy() {
         </section>
         <section>
           <h2 className="text-base font-medium text-foreground">Os seus direitos</h2>
-          <p className="mt-2">Pode aceder, corrigir ou eliminar os seus dados pessoais a qualquer momento, contactando-nos através de privacidade@ecoswitch.pt.</p>
+          <p className="mt-2">Pode aceder, corrigir ou eliminar os seus dados pessoais a qualquer momento, contactando-nos através de ecoo.swiitch@gmail.com.</p>
         </section>
         <section>
           <h2 className="text-base font-medium text-foreground">Conservação</h2>

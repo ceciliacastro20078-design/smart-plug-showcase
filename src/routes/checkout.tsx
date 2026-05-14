@@ -1,5 +1,5 @@
-import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { formatPrice, useCart } from "@/lib/cart";
+import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useState } from "react";
 
 export const Route = createFileRoute("/checkout")({
