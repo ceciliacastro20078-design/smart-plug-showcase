@@ -23,7 +23,7 @@ function Index() {
             <span className="inline-flex items-center gap-2 rounded-full border border-border bg-secondary/60 px-3 py-1 text-xs text-muted-foreground">
               <Leaf className="h-3 w-3" /> Eficiência energética doméstica
             </span>
-            <h1 className="mt-5 text-4xl font-semibold leading-[1.1] tracking-tight md:text-6xl">
+            <h1 className="mt-5 text-4xl font-semibold leading-[1.1] tracking-tight text-[#425742] md:text-6xl">
               Poupe energia enquanto dorme.
             </h1>
             <p className="mt-5 max-w-md text-base text-muted-foreground md:text-lg">
@@ -64,7 +64,7 @@ function Index() {
       <section className="mx-auto max-w-6xl px-6 py-20">
         <div className="flex items-end justify-between">
           <div>
-            <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">A nossa gama</h2>
+            <h2 className="text-3xl font-semibold tracking-tight text-[#425742] md:text-4xl">A nossa gama</h2>
             <p className="mt-2 text-muted-foreground">Cinco modelos para diferentes hábitos e espaços.</p>
           </div>
           <Link to="/shop" className="hidden text-sm text-muted-foreground hover:text-foreground md:inline-flex">

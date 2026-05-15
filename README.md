@@ -47,7 +47,7 @@ bun install
 bun run dev
 ```
 
-Opens at `http://localhost:5173` with hot module replacement.
+Opens at `http://localhost:8080` with hot module replacement.
 
 ### Production build
 

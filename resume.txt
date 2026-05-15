@@ -1,0 +1,42 @@
+APRESENTAÇÃO EXECUTIVA: ECOSWITCH SHOWCASE
+Projeto de Mestrado em Gestão de Negócios / Business Management
+
+1. SUMÁRIO EXECUTIVO
+O projeto "EcoSwitch Showcase" é uma plataforma de e-commerce D2C (Direct-to-Consumer) para uma marca inovadora de eficiência energética. O negócio foca-se na eliminação do "consumo fantasma" (standby power) através de hardware inteligente simplificado, utilizando uma infraestrutura tecnológica de baixo custo operacional e alta performance.
+
+2. A OPORTUNIDADE DE MERCADO (O PROBLEMA)
+- Contexto: Aumento dos custos de energia na Europa e maior consciência ambiental.
+- Problema: O consumo em standby pode representar até 10-15% da fatura elétrica doméstica.
+- Barreira de Entrada: As soluções de "Smart Home" atuais são frequentemente complexas, exigindo Wi-Fi, apps e configurações que afastam o consumidor médio ou menos tecnológico.
+
+3. PROPOSTA DE VALOR (A SOLUÇÃO)
+O EcoSwitch diferencia-se pela filosofia "Zero-Config":
+- Simplicidade (Plug & Play): Sem Wi-Fi, sem Bluetooth, sem Apps. O dispositivo aprende e age de forma autónoma.
+- ROI Imediato: Poupança tangível na fatura desde o primeiro dia.
+- Sustentabilidade Acessível: Democratização da eficiência energética para todos os perfis de utilizadores.
+
+4. MODELO DE NEGÓCIO E ESTRATÉGIA COMERCIAL
+- Modelo de Receita: Venda direta online (e-commerce) com foco em margens otimizadas e pacotes de valor (ex: Pack 3) para aumentar o AOV (Average Order Value).
+- Go-to-Market: Foco no canal digital para redução de custos fixos e agilidade na resposta ao mercado.
+- Segmentação: 
+  - "The Conscious Saver" (Poupadores conscientes)
+  - "The Tech Minimalist" (Minimalistas tecnológicos)
+  - "Silver Economy" (Idosos que beneficiam de automação sem complexidade)
+
+5. VANTAGEM COMPETITIVA TECNOLÓGICA (OPEX E ESCALABILIDADE)
+Para um gestor, a escolha da stack tecnológica reflete-se na eficiência operacional:
+- Agilidade de Desenvolvimento: O uso de TanStack Start e React 19 permitiu um Time-to-Market reduzido.
+- Custo de Infraestrutura (Edge Computing): O deployment em Cloudflare Workers elimina a necessidade de servidores tradicionais caros e complexos, permitindo escalar o tráfego com custos marginais próximos de zero.
+- UX de Conversão: Uma interface rápida (SEO Score 100) reduz o "churn" no checkout e aumenta a taxa de conversão direta.
+
+6. PORTFÓLIO DE PRODUTOS (Revenue Streams)
+A gama foi desenhada para cobrir diferentes necessidades e "price points":
+- EcoSwitch Mini (Entrada): €9,90 - Baixa barreira de aquisição.
+- EcoSwitch Solo (Standard): €17,90 - O cavalo de batalha da marca.
+- Pack 3 (Value): €37,90 - Otimização de logística e maior margem total.
+- Office Strip (B2B/Home Office): €39,90 - Focado na produtividade.
+- EcoSwitch Pro (Premium): €59,90 - Para utilizadores que valorizam análise de dados em tempo real.
+
+7. CONCLUSÃO E FUTURO
+O projeto demonstra como a convergência entre uma necessidade real de mercado (poupança energética) e uma execução tecnológica moderna (Digital Transformation) pode criar um modelo de negócio resiliente, sustentável e altamente escalável. O EcoSwitch não vende apenas adaptadores; vende "poupança sem esforço".
+
