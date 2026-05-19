@@ -33,3 +33,4 @@ dist-ssr
 *.md
 !README.md
 
+vite.config.ts
