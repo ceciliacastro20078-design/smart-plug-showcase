@@ -17,7 +17,7 @@ function Shop() {
     <div className="mx-auto max-w-6xl px-6 py-16">
       <header className="max-w-2xl">
         <span className="text-xs uppercase tracking-wider text-muted-foreground">Catálogo</span>
-        <h1 className="mt-2 text-4xl font-semibold tracking-tight md:text-5xl">A gama EcoSwitch</h1>
+        <h1 className="mt-2 text-4xl font-semibold tracking-tight text-[#425742] md:text-5xl">A gama EcoSwitch</h1>
         <p className="mt-3 text-muted-foreground">
           Cinco variações pensadas para casa e escritório. Todas com corte físico de energia e funcionamento autónomo.
         </p>

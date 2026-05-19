@@ -9,7 +9,7 @@ function About() {
   return (
     <div className="mx-auto max-w-3xl px-6 py-20">
       <span className="text-xs uppercase tracking-wider text-muted-foreground">A nossa história</span>
-      <h1 className="mt-2 text-4xl font-semibold tracking-tight md:text-5xl">Tecnologia simples ao serviço da poupança.</h1>
+      <h1 className="mt-2 text-4xl font-semibold tracking-tight text-[#425742] md:text-5xl">Tecnologia simples ao serviço da poupança.</h1>
 
       <div className="mt-10 space-y-6 text-base leading-relaxed text-muted-foreground">
         <p>
@@ -28,15 +28,15 @@ function About() {
 
       <div className="mt-14 grid gap-8 border-t border-border pt-10 md:grid-cols-3">
         <div>
-          <p className="text-3xl font-semibold">−10%</p>
+          <p className="text-3xl font-semibold text-[#425742]">−10%</p>
           <p className="mt-1 text-sm text-muted-foreground">Redução média na fatura de eletricidade</p>
         </div>
         <div>
-          <p className="text-3xl font-semibold">0 W</p>
+          <p className="text-3xl font-semibold text-[#425742]">0 W</p>
           <p className="mt-1 text-sm text-muted-foreground">Consumo residual após corte</p>
         </div>
         <div>
-          <p className="text-3xl font-semibold">3 anos</p>
+          <p className="text-3xl font-semibold text-[#425742]">3 anos</p>
           <p className="mt-1 text-sm text-muted-foreground">Garantia em todos os modelos</p>
         </div>
       </div>

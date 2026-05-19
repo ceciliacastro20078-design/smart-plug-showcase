@@ -13,7 +13,7 @@ function Contact() {
 
   return (
     <div className="mx-auto max-w-5xl px-6 py-20">
-      <h1 className="text-4xl font-semibold tracking-tight md:text-5xl">Contactos</h1>
+      <h1 className="text-4xl font-semibold tracking-tight text-[#425742] md:text-5xl">Contactos</h1>
       <p className="mt-3 max-w-xl text-muted-foreground">Estamos aqui para ajudar. Envie-nos uma mensagem ou contacte-nos diretamente.</p>
 
       <div className="mt-12 grid gap-12 md:grid-cols-2">
